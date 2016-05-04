@@ -1,27 +1,30 @@
 body {
     color: #444;
-	width:760px;
+    width: 760px;
     font: 12px / 1.5em arial;
     height: 100%;
     margin: 0;
     padding: 0;
 }
-.controlBar{
-	margin-left: 20px;
 
+.controlBar {
+    margin-left: 20px;
 }
-.leftColumn{
-	position: relative;
-	width: 760px;
+
+.leftColumn {
+    position: relative;
+    width: 760px;
 }
-.headControl{
-	height: 42px;
-	padding-left:20px;
+
+.headControl {
+    height: 42px;
+    padding-left: 20px;
     background: url(../images/h_calendar_select.93217d2.jpg) no-repeat left top;
     padding: 10px 15px 0;
 }
-.timePanel{
-	width: 90px;
+
+.timePanel {
+    width: 90px;
     height: 33px;
     float: left;
     line-height: 33px;
@@ -31,23 +34,27 @@ body {
     color: #fff;
     background: url(../images/time.7cbaff8.jpg) no-repeat;
 }
-.yearBar{
-	float: left;
+
+.yearBar {
+    float: left;
     width: 142px;
     height: 33px;
     margin-left: 20px;
     display: inline;
 }
-.monthBar{
-	float: left;
+
+.monthBar {
+    float: left;
     width: 142px;
     height: 27px;
     margin-left: 10px;
     display: inline;
 }
-.showWeek{
-	width: 760px;
+
+.showWeek {
+    width: 760px;
 }
+
 .showTab ul li {
     width: 92px;
     height: 66px;
@@ -57,81 +64,90 @@ body {
     display: inline;
     text-align: right;
     cursor: pointer;
-    overflow: hidden;    
-	font-size: 20px;
+    overflow: hidden;
+    font-size: 20px;
     font-family: Arial;
     font-weight: 600;
     line-height: 10px;
     color: #555;
 }
-.select{
-	width:80px;
-	height:30px;
-	background-color
+
+.select {
+    width: 80px;
+    height: 30px;
+    background-color
 }
-.today{
-  line-height:27px;
-  height:27px;
-  width:73px;
-  color:#ffffff;
-  background-color:#3ba354;
-  font-size:15px;
-  font-weight:normal;
-  font-family:Arial;
-  border:0px solid #dcdcdc;
-  -webkit-border-top-left-radius:6px;
-  -moz-border-radius-topleft:6px;
-  border-top-left-radius:6px;
-  -webkit-border-top-right-radius:6px;
-  -moz-border-radius-topright:6px;
-  border-top-right-radius:6px;
-  -webkit-border-bottom-left-radius:6px;
-  -moz-border-radius-bottomleft:6px;
-  border-bottom-left-radius:6px;
-  -webkit-border-bottom-right-radius:6px;
-  -moz-border-radius-bottomright:6px;
-  border-bottom-right-radius:6px;
-  -moz-box-shadow: inset 0px 0px 0px 0px #ffffff;
-  -webkit-box-shadow: inset 0px 0px 0px 0px #ffffff;
-  box-shadow: inset 0px 0px 0px 0px #ffffff;
-  text-align:center;
-  display:inline-block;
-  text-decoration:none;
-}
-.today:hover{
-  background-color:#1c9439;
-}
-#selectYear{
+
+.today {
+    line-height: 27px;
+    height: 27px;
+    width: 73px;
+    color: #ffffff;
+    background-color: #3ba354;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: Arial;
+    border: 0px solid #dcdcdc;
+    -webkit-border-top-left-radius: 6px;
+    -moz-border-radius-topleft: 6px;
+    border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    -moz-border-radius-topright: 6px;
+    border-top-right-radius: 6px;
+    -webkit-border-bottom-left-radius: 6px;
+    -moz-border-radius-bottomleft: 6px;
+    border-bottom-left-radius: 6px;
+    -webkit-border-bottom-right-radius: 6px;
+    -moz-border-radius-bottomright: 6px;
+    border-bottom-right-radius: 6px;
+    -moz-box-shadow: inset 0px 0px 0px 0px #ffffff;
+    -webkit-box-shadow: inset 0px 0px 0px 0px #ffffff;
+    box-shadow: inset 0px 0px 0px 0px #ffffff;
+    text-align: center;
     display: inline-block;
+    text-decoration: none;
 }
-#selectMonth{
-    display: inline-block;
+
+.today:hover {
+    background-color: #1c9439;
 }
-#selectHoliday{
-    display: inline-block;
-}
-#jumpToday{
-    display: inline-block;
-}
-#timeNow{
+
+#selectYear {
     display: inline-block;
 }
 
-#showCalendar{
-	
+#selectMonth {
+    display: inline-block;
 }
 
-#field-week li{
-	display: inline;
+#selectHoliday {
+    display: inline-block;
 }
-#field-date1 li{
-	display: inline;
+
+#jumpToday {
+    display: inline-block;
 }
-#field-date2 li{
-	display: inline;
+
+#timeNow {
+    display: inline-block;
 }
-.showWeek ul li{
-	float: left;
+
+#showCalendar {}
+
+#field-week li {
+    display: inline;
+}
+
+#field-date1 li {
+    display: inline;
+}
+
+#field-date2 li {
+    display: inline;
+}
+
+.showWeek ul li {
+    float: left;
     width: 93px;
     text-align: center;
     margin-left: 5px;

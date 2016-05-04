@@ -1,71 +1,86 @@
 <!DOCTYPE html>
 <html>
-	
-<head>
-<meta charset="utf-8">
-<title>万年历</title>	
-<link rel="stylesheet" type="text/css" href="styles/calendar.css">		
-		
-</head>
-	
-<body onload="initCal()">
-<div class="leftColumn"><!-- 左侧边栏-->
- <div id="controlBar" class="headControl"><!--顶部控制选择栏-->
-  <div id="selectDay" class="timeBar"><!--时间选择栏-->
-   <div id="selectYear" class="control-bar year-bar" ><!--年份选择栏-->
 
-		<select id="field-year" class="select" onchange="changeCal()">
-	    </select>
-	   
-   </div>
-	  
-   <div id="selectMonth" class="control-bar month-bar"><!--月份选择栏-->	
-	   
-	<select id="field-month" class="select" onchange="changeCal()"> 	
-	</select>
-	   
-   </div>
-	  
-   <div id="selectHoliday" class="control-bar holiday-bar"><!--假日查询栏-->
-	   
-	<ul id="field-holiday">
-	</ul>
-   </div>
-	  
-   <div id="jumpToday" class="control-bar"><!--跳转至今日选项-->
-	   
-       <a href='#' class='today' onclick="backToday()">返回今日</a>
-   </div>	
-	  
-   <div id="timeNow" class="timePanel"><!--当前时间仪表盘--> 
-	   
-   </div>
-  </div>  
- </div>
-  <div id="field-week" class="showWeek"><!--星期显示-->
-	  
-  </div>
- <div id="showCalendar" class="showTab"><!--日历表-->
-	 
-  
-  <div id="field-date1" class="showDate"><!--第一行日期显示-->
-	 
-  </div>
-  <div id="field-date2" class="showDate"><!--后几行日期显示-->
-	  
-  </div>
- </div>
-</div>	
-	
-<div class="rightColumn"><!--右侧边栏-->
- <div class="almanacHead"><!--选中日期顶部-->
-	 
- </div>
- <div class="almanacInfo"><!--选中日期信息-->
-	 
- </div>
-</div>
-<script src="scripts/calendarInfo.js" type="text/javascript" charset="utf-8"></script>
+<head>
+    <meta charset="utf-8">
+    <title>万年历</title>
+    <link rel="stylesheet" type="text/css" href="styles/calendar.css">
+
+</head>
+
+<body onload="initCal()">
+    <div class="leftColumn">
+        <!-- 左侧边栏-->
+        <div id="controlBar" class="headControl">
+            <!--顶部控制选择栏-->
+            <div id="selectDay" class="timeBar">
+                <!--时间选择栏-->
+                <div id="selectYear" class="control-bar year-bar">
+                    <!--年份选择栏-->
+
+                    <select id="field-year" class="select" onchange="changeCal()">
+                    </select>
+
+                </div>
+
+                <div id="selectMonth" class="control-bar month-bar">
+                    <!--月份选择栏-->
+
+                    <select id="field-month" class="select" onchange="changeCal()">
+                    </select>
+
+                </div>
+
+                <div id="selectHoliday" class="control-bar holiday-bar">
+                    <!--假日查询栏-->
+
+                    <ul id="field-holiday">
+                    </ul>
+                </div>
+
+                <div id="jumpToday" class="control-bar">
+                    <!--跳转至今日选项-->
+
+                    <a href='#' class='today' onclick="backToday()">返回今日</a>
+                </div>
+
+                <div id="timeNow" class="timePanel">
+                    <!--当前时间仪表盘-->
+
+                </div>
+            </div>
+        </div>
+        <div id="field-week" class="showWeek">
+            <!--星期显示-->
+
+        </div>
+        <div id="showCalendar" class="showTab">
+            <!--日历表-->
+
+
+            <div id="field-date1" class="showDate">
+                <!--第一行日期显示-->
+
+            </div>
+            <div id="field-date2" class="showDate">
+                <!--后几行日期显示-->
+
+            </div>
+        </div>
+    </div>
+
+    <div class="rightColumn">
+        <!--右侧边栏-->
+        <div class="almanacHead">
+            <!--选中日期顶部-->
+
+        </div>
+        <div class="almanacInfo">
+            <!--选中日期信息-->
+
+        </div>
+    </div>
+    <script src="scripts/calendarInfo.js" type="text/javascript" charset="utf-8"></script>
 </body>
-	
+
 </html>
